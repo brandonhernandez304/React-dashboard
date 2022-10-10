@@ -1,0 +1,40 @@
+* {
+  text-align: center;
+  color: white;
+}
+
+.dashboard {
+  height: 80vh;
+  width: 100vmax;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  background-color: #dddd;
+}
+.navbar {
+  grid-column: 1/1;
+  grid-row: 1/4;
+  padding-top: 80%;
+  justify-content: center;
+}
+.reviews {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-right: 50%;
+}
+.sentimentanalysis {
+  padding-right: 20%;
+}
+.websitevisitors {
+  grid-column: 2/5;
+  grid-row: 2/4;
+  padding-right: 75%;
+}
+
+div {
+  margin: 10px;
+}
+.dashboard div {
+  display: flexbox;
+  background: grey;
+}
